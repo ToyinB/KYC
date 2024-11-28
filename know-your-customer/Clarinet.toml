@@ -1,0 +1,11 @@
+[project]
+name = "know-your-customer"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+analysis = ["check_checker"]
+costs_version = 2
+[contracts.customer]
+path = "contracts/customer.clar"
+depends_on = []
